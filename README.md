@@ -100,6 +100,3 @@ For questions, feel free to reach out:
 ---
 
 Thank you for checking out this project! 🎉 We hope you find it useful!
-```
-
- 
