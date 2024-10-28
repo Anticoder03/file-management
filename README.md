@@ -40,22 +40,22 @@ To set up this project locally, follow these steps:
 4. Configure the database connection in `conn.php`:
    ```php
    <?php
-// Database configuration
-$servername = "localhost"; //hostname
-$username = "root"; //dbusername
-$password = ""; //dbpassword
-$dbname = "file_management"; 
+      // Database configuration
+      $servername = "localhost"; //hostname
+      $username = "root"; //dbusername
+      $password = ""; //dbpassword
+      $dbname = "file_management"; 
 
-// Create a new MySQLi connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+      // Create a new MySQLi connection
+      $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check the connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} else {
+      // Check the connection
+      if ($conn->connect_error) {
+       die("Connection failed: " . $conn->connect_error);
+      } else {
     // echo "Connected successfully!";
-}
-?>
+      }
+   ?>
 
    ```
 
